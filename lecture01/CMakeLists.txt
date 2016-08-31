@@ -15,3 +15,4 @@ target_include_directories(lecture01 INTERFACE
 add_executable(test_runner test/test_demo.cpp)
 target_link_libraries(test_runner ${GTEST_BOTH_LIBRARIES})
 target_include_directories(test_runner PUBLIC ${GTEST_INCLUDE_DIRS})
+GTEST_ADD_TESTS(test_runner "" test/test_demo.cpp)
