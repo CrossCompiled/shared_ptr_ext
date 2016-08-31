@@ -17,11 +17,13 @@
           <root url="file://C:/MinGW/lib/gcc/mingw32/4.9.3/include" />
           <root url="file://C:/MinGW/lib/gcc/mingw32/4.9.3/include-fixed" />
           <root url="file://C:/MinGW/include" />
+          <root url="file://$USER_HOME$/.CLion2016.2/system/cmake/generated/shared_ptr_ext-c729c92c/c729c92c/Debug/lecture01/googletest-prefix/src/googletest/include" />
         </CLASSES>
         <SOURCES>
           <root url="file://C:/MinGW/lib/gcc/mingw32/4.9.3/include" />
           <root url="file://C:/MinGW/lib/gcc/mingw32/4.9.3/include-fixed" />
           <root url="file://C:/MinGW/include" />
+          <root url="file://$USER_HOME$/.CLion2016.2/system/cmake/generated/shared_ptr_ext-c729c92c/c729c92c/Debug/lecture01/googletest-prefix/src/googletest/include" />
         </SOURCES>
       </library>
     </orderEntry>
