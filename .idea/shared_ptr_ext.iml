@@ -4,6 +4,7 @@
     <content url="file://$MODULE_DIR$">
       <sourceFolder url="file://$MODULE_DIR$/src/src/ptr.cpp" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/src/CMakeLists.txt" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/modules/FindGTest.cmake" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/main.cpp" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/lecture01/CMakeLists.txt" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/lecture01/test/test_demo.cpp" isTestSource="false" />
@@ -13,7 +14,6 @@
     <orderEntry type="module-library">
       <library name="Header Search Paths">
         <CLASSES>
-          <root url="file://$USER_HOME$/Library/Caches/CLion2016.2/cmake/generated/shared_ptr_ext-8e655ef2/8e655ef2/Debug/lecture01/googletest-prefix/src/googletest/googletest/include" />
           <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk/System/Library/Frameworks/AudioToolbox.framework/Headers" />
           <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk/System/Library/Frameworks/Carbon.framework/Headers" />
           <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk/System/Library/Frameworks/Carbon.framework/Frameworks/HIToolbox.framework/Headers" />
@@ -187,7 +187,6 @@
           <root url="file:///Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/7.3.0/include" />
         </CLASSES>
         <SOURCES>
-          <root url="file://$USER_HOME$/Library/Caches/CLion2016.2/cmake/generated/shared_ptr_ext-8e655ef2/8e655ef2/Debug/lecture01/googletest-prefix/src/googletest/googletest/include" />
           <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk/System/Library/Frameworks/AudioToolbox.framework/Headers" />
           <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk/System/Library/Frameworks/Carbon.framework/Headers" />
           <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk/System/Library/Frameworks/Carbon.framework/Frameworks/HIToolbox.framework/Headers" />
