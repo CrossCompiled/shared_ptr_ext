@@ -3,5 +3,5 @@ project(shared_ptr_ext)
 
 set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=gnu++11")
 
-set(SOURCE_FILES main.cpp sptr/sptr.cpp sptr/sptr.h)
-add_executable(shared_ptr_ext ${SOURCE_FILES})
+add_subdirectory(src)
+
