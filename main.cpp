@@ -1,6 +1,6 @@
 #include <iostream>
 #include <demo/ptr.hpp>
-#include <lecture01/SharedPtr.h>
+#include <lecture01/exercise01/SharedPtr.h>
 
 int main() {
     Ptr p(1);

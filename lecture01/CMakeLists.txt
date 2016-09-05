@@ -7,12 +7,11 @@ find_package(GTest REQUIRED)
 
 add_library(lecture01 INTERFACE)
 
-target_include_directories(lecture01 INTERFACE
-        $<BUILD_INTERFACE:${CMAKE_CURRENT_SOURCE_DIR}/includes>
-        $<INSTALL_INTERFACE:includes>
-)
+target_include_directories(lecture01 INTERFACE includes)
 
-add_executable(test_runner test/test_demo.cpp)
-target_link_libraries(test_runner ${GTEST_BOTH_LIBRARIES})
-target_include_directories(test_runner PUBLIC ${GTEST_INCLUDE_DIRS})
-GTEST_ADD_TESTS(test_runner "" test/test_demo.cpp)
+add_executable(test_exercise01 test/exercise01/test_SharedPtr.cpp)
+target_link_libraries(test_exercise01 lecture01)
+target_link_libraries(test_exercise01 ${GTEST_BOTH_LIBRARIES})
+target_include_directories(test_exercise01 PUBLIC ${GTEST_INCLUDE_DIRS})
+
+add_test(test_exercise01 test_exercise01)
